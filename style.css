@@ -205,6 +205,9 @@ button{
         height: 10px;
     }
 }
+@media screen and (max-width:430px) {
+
+}
 @media screen and (max-width:500px) {
     .card{
         width: 50%;

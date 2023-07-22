@@ -10,8 +10,8 @@
 <body>
 <!-- -------------------------------------------------------------------------------------------------- -->
     <div class="heder">
-        <button class="you">Til</a>
-        <div class="leng">
+        <button onclick="leng()" class="you">Til</a>
+        <div class="leng" id="leng">
                 <a href="Rus.html">RUS</a>
                 <a href="Eng(3).html">ENG</a>
         </div>
@@ -218,6 +218,9 @@
 }
 function cl(){
     document.getElementById("demo").style.display = "none";
+}
+function leng(){
+    document.getElementById("leng").classList.toggle("show");
 }
     </script>
 </body>

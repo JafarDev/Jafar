@@ -249,7 +249,7 @@ button{
 }
 @media screen and (max-width:350px) {
     .menyu{
-        width: 70%;
+        width: 50%;
         height: 350px;
     }
 }

@@ -197,7 +197,7 @@ button{
 }
 @media screen and (max-width:400px) {
     .menyu{
-        width: 100%;
+        /* width: 100%; */
         height: 250px;
     }
     .m{
@@ -249,7 +249,10 @@ button{
 }
 @media screen and (max-width:350px) {
     .menyu{
-        width: 50%;
-        height: 350px;
+        /* width: 100%; */
+        height: 240px;
+    }
+   .t{
+        font-size: 20px;
     }
 }

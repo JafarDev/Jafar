@@ -10,35 +10,34 @@
 <body>
     <!-- ---------------------------------------------------------------------------------------------------------- -->
     <div class="heder">
-        <button class="you">Язык</a>
-        <div class="leng">
+        <button onclick="leng()" class="you">Язык</a>
+        <div class="leng" id="leng">
             <a href="index.html">UZB</a>
             <a href="Eng(3).html">ENG</a>
         </div>
         </button>
-        <h1>Сувениры</h1>
-        <p>Отличные "Сувениры" для вашего дома</p>
+        <h1 style=" text-align: center;">Сувениры</h1>
+        <p style="text-align: center;" class="l">Отличные "Сувениры" для вашего дома</p>
     </div>
     <!-- ----------------------------------------------------------------------------------------------------------------- -->
     <div class="menyu">
-         <a class="h" href="#content">Рельефные пластины</a>
-         <button><a class="j" href="">Вы можете оплатить следующей картой  <mark>VISA</mark></a></button> 
-         <button><a class="j" href="">Оплата может быть произведена наличными</a></button>
-         <a onclick="fan()" class="m h">связаться с нами</a>
+         <a class="t" href="#content">Рельефные пластины</a>
+         <a class="t">Вы можете оплатить следующей картой  <mark>VISA</mark></a></button> 
+         <a class="t">Оплата может быть произведена наличными</a></button>
+         <a onclick="fan()"class="t">связаться с нами</a>
     </div>
     <!-- ----------------------------------------------------------------------------------------------------------------- -->
     <br>
-    <!-- <div id="demo" class="forma">
+    <div id="demo" class="forma">
        <button onclick="cl()" class="x">X</button>
-       <img src="vk.png" style="height: 90px; position:absolute; top: 50px;left: 20px;"><h2 style="position: absolute;top: 250px;left: 100px;"></h2> 
-       <img src="instagram.jpg" style="height: 90px; position:absolute; top: 150px;left: 20px;"><h2 style="position: absolute;top: 250px;left: 100px;"></h2> 
-       <img src="TELEFON.png" style="height: 90px; position:absolute; top: 250px;left: 20px;"><h2 style="position: absolute;top: 250px;left: 100px;"><a href="+998936221038">+998 93 622 10 38</a>  Истам</h2>
-       <img src="TELEFON.png" style="height: 90px; position:absolute; top: 350px;left: 20px;"><h2 style="position: absolute;top: 350px;left: 100px;"><a href="+998936221038">+998 93 623 10 38</a>  Жафар</h2>
+       <img src="vk.png" style="position:absolute; top: 50px;left: 20px;"><h2 style="position: absolute;top: 250px;left: 100px;"></h2> 
+       <img src="instagram.jpg" style="position:absolute; top: 150px;left: 20px;"><h2 style="position: absolute;top: 250px;left: 100px;"></h2> 
+       <img src="TELEFON.png" style="position:absolute; top: 250px;left: 20px;"><h2 style="position: absolute;top: 250px;left: 100px;"><a href="+998936221038">+998 93 622 10 38</a>  Истам</h2>
+       <img src="TELEFON.png" style="position:absolute; top: 350px;left: 20px;"><h2 style="position: absolute;top: 350px;left: 100px;"><a href="+998936221038">+998 93 623 10 38</a>  Жафар</h2>
        <button onclick="cl()" class="o">закрыть</button>
-    </div> -->
+    </div>
     <!-- ------------------------------------------------------------------------------------------------------------- -->
-    <div class="Container">
-        <!-- <h1>Каталог</h1>
+        <!-- <div class="Container"> 
         <div id="content" class="content">
             <div class="card">
                 <img src="foto1.jpg" width="100%">
@@ -47,9 +46,9 @@
                     Эти тарелки изготовлены с помощью нашего профессионального мастера
                     <br><br>
                     <mark>Первый продукт 1</mark></h3>
-            </div>
-            <div class="card">
-                <img src="foto4.jpg" width="100%">
+            </div> -->
+           <!-- <div class="card">
+                 <img src="foto4.jpg" width="100%">
                 <h3>Диаметр этой тарелки 40 см.
                     <br><br>
                     Эти тарелки изготовлены с помощью нашего профессионального мастера
@@ -228,6 +227,16 @@
                 <h2><mark>НОВОСТИ</mark></h2>
             </div>     -->
     </div>
-    <script src="script.js"></script>
+    <script>
+        function fan(){
+    document.getElementById("demo").style.display = "block";
+}
+function cl(){
+    document.getElementById("demo").style.display = "none";
+}
+function leng(){
+    document.getElementById("leng").classList.toggle("show");
+}
+    </script>
 </body>
 </html>

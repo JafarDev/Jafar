@@ -282,7 +282,7 @@ p{
     to{
         position: absolute;
         top: 291px;
-        width: 330px;
+        width: 100%;
     }
 }
 @media screen and (max-width:380px) {

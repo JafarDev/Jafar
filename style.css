@@ -282,13 +282,13 @@ p{
     to{
         position: absolute;
         top: 260px;
-        width: 87%;
+        width: 88%;
     }
 }
 @media screen and (max-width:380px) {
     .menyu{
         /* width: 100%; */
-        height: 179px;
+        height: 182px;
         display: none;
         animation: anime 2s forwards;
     }

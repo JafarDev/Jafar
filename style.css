@@ -21,6 +21,19 @@ p{
     z-index: 1;
     /* border: solid 2px red; */
 }
+.menyu_x{
+    position: absolute;
+    top: 5px;
+    right: 1px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: black;
+}
+.menyu_x:active{
+    color: red;
+}
 .t{
     color: wheat;
     padding: 15px;
@@ -240,7 +253,7 @@ p{
         text-align: center;
         /* position: absolute;
         right: 122px; */
-        height: 565px;
+        height: 570px;
         margin-left:16px;
     }
 }
@@ -322,7 +335,7 @@ p{
         text-align: center;
         /* position: absolute;
         right: 122px; */
-        height: 565px;
+        height: 570px;
         margin-left: 16px;
     }
 }

@@ -25,6 +25,7 @@
          <a class="t">Quyidagi karta bilan to'lash mumkin <mark>VISA</mark></a>
          <a class="t">Naqd pul bilan to'lash mumkin</a>
          <a onclick="fan()" class="t">Biz bilan bog'lanish</a>
+         <button onclick="menyu_x()" class="menyu_x">X</button>
     </div>
     <button onclick="menyu2()" class="menyu2">Menyu</button>
     <!-- ----------------------------------Framework------------------------------------------------------------------- -->
@@ -240,6 +241,9 @@ function leng(){
 }
 function menyu2(){
     document.getElementById("menyu").style.display = "block"
+}
+function menyu_x(){
+    document.getElementById("menyu").style.display = "none"
 }
 // ----------------Framework------------------------------------------\\
 // function openNav() {

@@ -2,12 +2,19 @@ body{
     height: 2000px;
 }
 .heder{
-    padding: 150px 0px;
-    background-size: cover;
-    background-color: lightskyblue ;
+    /* padding: 150px 0px; */
+    /* background-size: cover;
+    background-image: url(instagram.jpg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat; */
+    /* background-blend-mode: multiply;
+    background-color: white; */
+    /* opacity: 0.5; */
 }
 h1{
     font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-top: -160px;
 }
 p{
     font-size: 20px;
@@ -147,6 +154,7 @@ p{
     top: 40px;
     left: 0px;
     display: none;
+    z-index: 0;
 }
 .leng a{
     display: block;
@@ -309,7 +317,7 @@ p{
         width: 60px;
     }
     .menyu2:hover{
-        box-shadow: blue 0px 0px 15px ;
+        box-shadow: blue 0px 0px 20px ;
     }
     .forma{
         width: 300px;
